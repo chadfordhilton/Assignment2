@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "Fruit.h"
+//#import "Vegetable.h"
+#import "Onion.h"
+#import "Potato.h"
+#import "Pumpkin.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSMutableArray *cart;
@@ -20,15 +23,28 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.cart = [[NSMutableArray alloc] init];
-    NSString *itemName;
-    NSString *fruitName = @"Bananas";
     
-    for (int i = 0; i<50; i++) {
-        itemName = [[NSString alloc] initWithFormat:@"%@ %d", fruitName, i];
-        Fruit *tempFruit = [[Fruit alloc] initWithName:itemName andShape:@"Curved" andColor:@"Yellow"];
-        [self.cart addObject:tempFruit];
-    }
+    // create a "Cart" object to store vegetable objects
+    self.cart = [[NSMutableArray alloc] init];
+    
+    // Create an Onion object
+    Onion *anOnion = [[Onion alloc] initWithName:@"Onion" andShape:@"Round" andColor:@"White"];
+    
+    // Create a Potato object
+    Potato *aPotato = [[Potato alloc] initWithName:@"Potato" andShape:@"Oval" andColor:@"Yellow"];
+    
+    // Create a Pumpkin object
+    Pumpkin *aPumpkin = [[Pumpkin alloc] initWithName:@"Pumpkin" andShape:@"Round" andColor:@"Orange"];
+
+    // add an Onion to the cart
+    [self.cart addObject:anOnion];
+    
+    // add a Potato to the cart
+    [self.cart addObject:aPotato];
+    
+    // add a Pumpkin to the cart
+    [self.cart addObject:aPumpkin];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,15 +60,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    NSString *identifier = @"fruitCell";
+    NSString *identifier = @"vegetableCell";
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
     
     cell.textLabel.text = [[self.cart objectAtIndex:[indexPath row]] name];
     return cell;
     
 }
-
-
-
 
 @end

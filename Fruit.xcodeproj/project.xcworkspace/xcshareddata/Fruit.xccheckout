@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>995E74CD-E403-484E-B4F7-3D7E4599F08D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fruit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E554CEE9-1FAE-43CC-8756-D369E4C35E33</key>
+		<string>https://github.com/chadfordhilton/Assignment2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fruit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E554CEE9-1FAE-43CC-8756-D369E4C35E33</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chadfordhilton/Assignment2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E554CEE9-1FAE-43CC-8756-D369E4C35E33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E554CEE9-1FAE-43CC-8756-D369E4C35E33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Assignment2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
