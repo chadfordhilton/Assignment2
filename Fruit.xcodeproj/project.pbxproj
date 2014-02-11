@@ -15,6 +15,7 @@
 		2A634880189AD9D300B047AD /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A63487F189AD9D300B047AD /* Pumpkin.m */; };
 		2A634883189ADA8500B047AD /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A634882189ADA8500B047AD /* Potato.m */; };
 		2AB91AA118A03B0D00153086 /* iOS Simulator Screen shot Feb 3, 2014, 3.59.03 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB91AA018A03B0D00153086 /* iOS Simulator Screen shot Feb 3, 2014, 3.59.03 PM.png */; };
+		2A87109018AAA8F500A544D5 /* iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A87108F18AAA8F500A544D5 /* iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png */; };
 		8B650731189808D400D912AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650730189808D400D912AF /* UIKit.framework */; };
 		8B650733189808D400D912AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650732189808D400D912AF /* Foundation.framework */; };
 		8B650735189808D400D912AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650734189808D400D912AF /* CoreGraphics.framework */; };
