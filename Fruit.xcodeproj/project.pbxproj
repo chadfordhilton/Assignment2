@@ -43,7 +43,7 @@
 		2A63487F189AD9D300B047AD /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pumpkin.m; path = ../Pumpkin.m; sourceTree = "<group>"; };
 		2A634881189ADA8500B047AD /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
 		2A634882189ADA8500B047AD /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
-		2A87108F18AAA8F500A544D5 /* iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png"; path = "../../Desktop/iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png"; sourceTree = "<group>"; };
+		2A87108F18AAA8F500A544D5 /* iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png"; path = "../../../Desktop/iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png"; sourceTree = "<group>"; };
 		8B65072D189808D400D912AF /* Fruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B650730189808D400D912AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B650732189808D400D912AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,7 +79,6 @@
 		8B650724189808D400D912AF = {
 			isa = PBXGroup;
 			children = (
-				2A87108F18AAA8F500A544D5 /* iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png */,
 				8B650736189808D400D912AF /* Fruit */,
 				8B65072F189808D400D912AF /* Frameworks */,
 				8B65072E189808D400D912AF /* Products */,
@@ -107,6 +106,7 @@
 		8B650736189808D400D912AF /* Fruit */ = {
 			isa = PBXGroup;
 			children = (
+				2A87108F18AAA8F500A544D5 /* iOS Simulator Screen shot Feb 11, 2014, 1.52.02 PM.png */,
 				2A634881189ADA8500B047AD /* Potato.h */,
 				2A634882189ADA8500B047AD /* Potato.m */,
 				2A63487E189AD9D300B047AD /* Pumpkin.h */,
